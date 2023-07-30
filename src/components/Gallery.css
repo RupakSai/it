@@ -1,0 +1,47 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-x: hidden;
+}
+.gallery .photocard{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+.photocard .ename{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border-bottom: 2px solid #00FFFF;
+    justify-content: center;
+    display: flex;
+}
+.ename p{
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+.photocard .edesc{
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+.photocard span{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.photocard span img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.gallery a{
+    text-decoration: none;
+    color: white;
+}

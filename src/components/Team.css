@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Quicksand&display=swap');
+.team{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow-x: hidden;
+}
+.team .title img{
+    height: 50px;
+    margin-right: 10px;
+}
+.title{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CF6A27;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+.ptt{
+    font-size: 25px;
+}
+.team .team1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team1 img{
+    width: 200px;
+}
+.team .t11{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.t11 p{
+    margin: 5px 0 10px 20px;
+}
+.team .team2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin: 20px 10px 0 10px;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+}
+.team2 img{
+    height: 175px;
+    margin-bottom: 5px;
+}
+.team2 .team23{
+    display: flex;
+    flex-direction: column;
+}
+.team23 p{
+    margin: 3px 0 5px 0;
+}
+.team .team3{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 20px 10px 0 10px;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+}
+.team3 img{
+    height: 175px;
+}
+.team2 .team33{
+    display: flex;
+    flex-direction: column;
+}
+.team33 p{
+    margin: 3px 0 5px 0;
+}
+.team .team4{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 20px 10px 0 10px;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+}
+.team4 img{
+    height: 160px;
+}
+.team4 .team43{
+    display: flex;
+    flex-direction: column;
+}
+.team43 p{
+    margin: 3px 0 5px 0;
+}
+@media screen and (max-width: 890px) and (min-width: 470px) {
+    .team .team1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team .team2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team .team3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team .team4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

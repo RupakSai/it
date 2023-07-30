@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Quicksand&display=swap');
+.nav{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav img{
+    height: 50px;
+    margin-left: 10px;
+}
+.nav p{
+    background: #9715CF;
+    background: linear-gradient(to right, #9715CF 0%, #CF6A27 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}

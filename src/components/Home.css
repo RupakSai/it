@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.c1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c1 .p1{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 5px 0 5px 50px;
+}
+.c1 .p2{
+    font-size: 35px;
+    background: #9715CF;
+    background: linear-gradient(to right, #9715CF 0%, #CF6A27 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    margin-left: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+.c1 .p3{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 10px 0 5px 50px;
+}
+.c2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c2 .p4{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.c2 .link{
+    border: 2px solid #CF6A27;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #CF6A27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 15px;
+    animation: animate 0.6s linear infinite alternate;
+}
+@keyframes animate{
+    from{
+        transform: translateX(5px);
+    }
+    to{
+        transform: translateX(-5px);
+    }
+}
+.link:hover{
+    transition: 0.5s ease;
+    background-color: #CF6A27;
+    color: black;
+    font-weight: bolder;
+}
+@media screen and (max-width: 830px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .Home{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Home .c1{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .c1 .p1{
+        margin: 0;
+    }
+    .c1 .p2{
+        margin: 10px 0 10px 0;
+    }
+    .c1 .p3{
+        margin: 0;
+    }
+    .Home .c2{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: 50px;
+    }
+    .c2 .p4{
+        margin: 0;
+    }
+    .c2 .link{
+        margin-right: 0;
+    }
+}
